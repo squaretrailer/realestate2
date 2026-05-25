@@ -1,0 +1,155 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "title": "Cozy Apartment in Kilimani",
+      "location": "Nairobi",
+      "price": 650000,
+      "status": "Available",
+      "image": "image1.jpg",
+      "images": [
+        "image1.jpg",
+        "image2.jpg"
+      ],
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 850,
+      "propertyType": "Apartment",
+      "description": "Modern apartment with great access to public transportation and local amenities."
+    },
+    {
+      "id": "2",
+      "title": "Spacious Family Home",
+      "location": "Kiambu",
+      "price": 1200000,
+      "status": "Available",
+      "image": "image2.jpg",
+      "images": [
+        "image2.jpg",
+        "image3.jpg"
+      ],
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2200,
+      "propertyType": "House",
+      "description": "Perfect for families with large garden and parking."
+    },
+    {
+      "id": "3",
+      "title": "Luxury Villa with Pool",
+      "location": "Mombasa",
+      "price": 3500000,
+      "status": "Sold",
+      "image": "image3.jpg",
+      "images": [
+        "image3.jpg",
+        "image4.jpg",
+        "image5.jpg"
+      ],
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 3500,
+      "propertyType": "Villa",
+      "description": "Beachfront villa with private pool and ocean views."
+    },
+    {
+      "id": "4",
+      "title": "Modern Loft",
+      "location": "Westlands, Nairobi",
+      "price": 890000,
+      "status": "Pending",
+      "image": "image4.jpg",
+      "images": [
+        "image4.jpg",
+        "image5.jpg"
+      ],
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1100,
+      "propertyType": "Loft",
+      "description": "Stylish loft with high ceilings and city views."
+    },
+    {
+      "id": "5",
+      "title": "Cozy Cottage",
+      "location": "Limuru",
+      "price": 450000,
+      "status": "Available",
+      "image": "image5.jpg",
+      "images": [
+        "image5.jpg",
+        "image6.jpg"
+      ],
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1400,
+      "propertyType": "Cottage",
+      "description": "Peaceful cottage surrounded by nature."
+    },
+    {
+      "id": "6",
+      "title": "Penthouse with City View",
+      "location": "Upper Hill, Nairobi",
+      "price": 2800000,
+      "status": "Sold",
+      "image": "image6.jpg",
+      "images": [
+        "image6.jpg",
+        "image7.jpg",
+        "image8.jpg"
+      ],
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1900,
+      "propertyType": "Penthouse",
+      "description": "Luxury penthouse with panoramic city views."
+    }
+  ],
+  "agents": [
+    {
+      "name": "Christian Kamau",
+      "email": "christian@re.estate",
+      "phone": "0712345678",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Jennifer Mukinka",
+      "email": "jennifer@re.estate",
+      "phone": "0723456789"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "James Karanja",
+      "email": "james@example.com",
+      "phone": "0734567890"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Wanjiku",
+      "email": "sarah@example.com",
+      "phone": "0745678901"
+    }
+  ],
+  "showings": [
+    {
+      "id": "1",
+      "propertyId": "1",
+      "clientId": "1",
+      "agentId": "1",
+      "date": "2026-05-25",
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "propertyId": "3",
+      "clientId": "2",
+      "agentId": "2",
+      "date": "2026-05-20",
+      "status": "completed"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
